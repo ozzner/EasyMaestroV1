@@ -5,4 +5,6 @@ package pe.nullpoint.easymaestrov1.util;
  */
 
 public class Util_PorEjemploSharedPreferences {
+
+
 }

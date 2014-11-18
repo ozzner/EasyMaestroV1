@@ -4,23 +4,21 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import pe.nullpoint.easymaestrov1.R;
 
-
-public class easy_maestro extends Activity {
+public class Activity_MapaPrincipal extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_easy_maestro);
+        setContentView(R.layout.activity_mapa_principal);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.easy_maestro, menu);
+        getMenuInflater().inflate(R.menu.activity__mapa_principal, menu);
         return true;
     }
 
