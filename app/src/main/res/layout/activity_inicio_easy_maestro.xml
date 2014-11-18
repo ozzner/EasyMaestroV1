@@ -18,7 +18,6 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="10dp"
         android:layout_weight="3">
 
         <ImageView
@@ -26,7 +25,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/iv_logo"
             android:layout_gravity="center_horizontal"
-            android:background="@android:drawable/editbox_background_normal" />
+            android:background="@drawable/logo_temp" />
 
     </LinearLayout>
 
@@ -103,6 +102,7 @@
             android:layout_height="60dp"
             android:layout_width="match_parent"
             android:text="@string/str_btn_buscar"
+            style="@style/text_style"
             android:background="@drawable/button_selector">
         </Button>
 
